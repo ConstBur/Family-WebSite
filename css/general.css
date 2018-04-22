@@ -1,0 +1,230 @@
+/*General section*/
+
+body {
+	color: black;
+	background-image: url("../images/family-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Tahoma, sans-serif;
+	line-height: 1.4em;
+	margin: 20px 20px 20px 20px;
+}
+
+header {
+	display: block;
+	height: 20%;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page {
+	width: 100%;
+	height: 90%;
+	margin: 0px auto 0px auto;
+	background-color: #fdffb5;
+}
+
+#epigraph{
+	font-size: 20px;
+	font-family: Tahoma, sans-serif;
+	margin-top: -65px;
+	color: yellow;
+}
+
+h1 {
+	text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin: 0px;
+}
+
+section.content {
+	display: block;
+	width: 100%;
+	height: 70%;
+	float: left;
+	display: inline-block;
+}
+
+article {
+	display: block;
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+hgroup {
+	margin-top: 40px;
+}
+
+figure {
+	display: inline-block;
+	width: 250px;
+	height: 180px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;
+	background-color: #47b8ff;
+}
+
+figcaption {
+	display: block;
+	font-size: 90%;
+	text-align: left;
+	margin-top: 5px;
+	color: black;
+}
+
+a {
+	color: #21f24f;
+	text-decoration: none;
+}
+
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	color: #47b8ff;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #249924;
+}
+
+footer {
+	display: block;
+	font-size: 90%;
+	padding: 10px 0px 0px 0px;
+	clear: both;
+	text-align: center;
+	color: #ffffff;
+	background-color: #47b8ff;
+	height: 5%;
+}
+
+/* Dynamic section */
+
+.dynamic div {
+	display: none;
+}
+
+.dynamic div input {
+	visibility: hidden;
+}
+
+.dynamic div:target {
+	display: inline-block;
+}
+
+.dynamic div input:target {
+	visibility: visible;
+}
+
+.dynamic figure img {
+	width: 250px;
+	height: 150px;
+}
+
+/* Menu (navigation bar) */
+
+.navbar {
+  overflow: hidden;
+  background-color: #47b8ff;
+  font-family: Arial;
+	text-align: center;
+}
+
+.navbar a {
+	float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 17px 15px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Buttons */
+
+#submit{
+  background-color: green;
+  border: 2px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#reset{
+  background-color: #de6581;
+  border: 2px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#reset:active{
+  background-color: #21f24f;
+  color: white;
+}
+
+#submit:active{
+  background-color: white;
+}
+
+#submit:hover{
+	color: #47b8ff;
+}

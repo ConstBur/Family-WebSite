@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>My Family Site</title>
+  <link href="css/general.css" type="text/css" rel="stylesheet">
+  <link href="css/button.css" type="text/css" rel="stylesheet">
+  <link href="css/menu.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img src="" width="100%" height="100px"></img>
+      <div class="navbar">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+          <button type="button" class="dropbtn">Album</button>
+          <div class="dropdown-content" id="album-years">
+            <a href="album.html#2017">2017</a>
+            <a href="album.html#2016">2016</a>
+            <a href="album.html#2015">2015</a>
+            <a href="album.html#before">Before 2015</a>
+          </div>
+        </div>
+        <a href="history.html">History</a>
+        <a href="reunion.html">Reunion</a>
+        <div class="dropdown">
+          <button type="button" class="dropbtn">Contact</button>
+          <div class="dropdown-content" id="contact-list">
+            <a href="contact.html#cb_jr">Constantin Buruiana Jr</a>
+            <a href="contact.html#cb_sr">Constantin Buruiana Sr</a>
+            <a href="contact.html#eb">Elena Buruiana</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="left-side">
+      <h2>{Title}</h2>
+      <h3>{Subtitle}</h3>
+      <p>{Some text}</p>
+    </section>
+
+    <aside>
+      <section id="members-list">
+        <h2>Family Members</h2>
+        <a href="cbjunior.html">Constantin Buruiana Jr.</a>
+        <a href="cbsenior.html">Constantin Buruiana Sr.</a>
+        <a href="eb.html">Elena Buruiana</a>
+      </section>
+
+      <section id="contact">
+        <hgroup>
+          <h2>Reach us:<h2>
+          <h3>E-mail</h3>
+        </hgroup>
+        <form method="post" action="mailto:cb_jr@gmail.com" enctype="text/plain">
+          <input id="submit" type="submit" value="Constantin Buruiana Jr.">
+        </form>
+        <form method="post" action="mailto:cb_sr@gmail.com" enctype="text/plain">
+          <input id="submit" type="submit" value="Constantin Buruiana Sr.">
+        </form>
+        <form method="post" action="mailto:eb@gmail.com" enctype="text/plain">
+          <input id="submit" type="submit" value="Elena Buruiana">
+        </form>
+        <h3>...or use our <a href="contact.html" id="contact-page">contact page.</a></h3>
+      </section>
+    </aside>
+
+    <footer>&copy; 2018 Constantin Buruiana. All rights reserved.</footer>
+  </div>
+</body>
+</html>
