@@ -11,8 +11,8 @@
     <div class="navbar">
       <a href="home.html">Home</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Album</button>
-        <div class="dropdown-content">
+        <button type="button" class="dropbtn"><a href="album.html#default">Album</a></button>
+        <div class="dropdown-content" id="album-years">
           <a href="album.html#2017">2017</a>
           <a href="album.html#2016">2016</a>
           <a href="album.html#2015">2015</a>
@@ -21,8 +21,8 @@
       </div>
       <a href="history.html">History</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Members</button>
-        <div class="dropdown-content">
+        <button type="button" class="dropbtn"><a href="members.html#default">Members</a></button>
+        <div class="dropdown-content" id="members">
           <a href="members.html#cb_jr">Constantin Buruiana Jr</a>
           <a href="members.html#cb_sr">Constantin Buruiana Sr</a>
           <a href="members.html#eb">Elena Buruiana</a>
@@ -35,8 +35,19 @@
     <section class="content">
       <center>
         <h2>Contact us</h2><br>
-        <form method="post" action="./displayFormEntries.php" name="contact" enctype="text/plain">
+        <form method="get" action="../displayFormEntries.php" name="contact" enctype="text/plain">
           <table>
+            <tr>
+              <td><label for="reciever">Choose the reciever: </label></td>
+              <td>
+                <select form="contact" name="Reciever">
+                  <option value="default" selected disabled>Choose a member</option>
+                  <option value="Elena Buruiana">Elena Buruiana</option>
+                  <option value="Constantin Buruiana Jr.">Constantin Buruiana Jr.</option>
+                  <option value="Constantin Buruiana Sr.">Constantin Buruiana Sr.</option>
+                </select>
+              </td>
+            </tr>
             <tr>
               <td><label for="fname">First Name:</label></td>
               <td><input type="text" name="fname"></td>

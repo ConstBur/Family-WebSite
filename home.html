@@ -9,9 +9,9 @@
     </header>
 
     <div class="navbar">
-      <a href="home.html" class="dropbtn">Home</a>
+      <a href="home.html">Home</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Album</button>
+        <button type="button" class="dropbtn"><a href="album.html#default">Album</a></button>
         <div class="dropdown-content" id="album-years">
           <a href="album.html#2017">2017</a>
           <a href="album.html#2016">2016</a>
@@ -19,25 +19,47 @@
           <a href="album.html#before">Before 2015</a>
         </div>
       </div>
-      <a href="history.html" class="dropbtn">History</a>
+      <a href="history.html">History</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Members</button>
+        <button type="button" class="dropbtn"><a href="members.html#default">Members</a></button>
         <div class="dropdown-content" id="members">
           <a href="members.html#cb_jr">Constantin Buruiana Jr</a>
           <a href="members.html#cb_sr">Constantin Buruiana Sr</a>
           <a href="members.html#eb">Elena Buruiana</a>
         </div>
       </div>
-      <a href="reunion.html" class="dropbtn">Reunion</a>
-      <a href="contact.html" class="dropbtn">Contact</a>
+      <a href="reunion.html">Reunion</a>
+      <a href="contact.html">Contact</a>
     </div>
 
     <section class="content">
       <center>
-        <h2>Welcome to Buruiana's family website!</h2>
-        <h3></h3>
+        <hgroup>
+          <h2>Buruiana's family website</h2>
+          <h3>Welcome to our website, dear visitor!</h3>
+        </hgroup>
       </center>
-        <p>{Some text}</p>
+        <p align="justify">You just entered the personal website of Buruiana family. If you're one
+        of our friends, then it would be interesting for you to look at our photos
+        <a href="album.html#default">in our album</a>, or follow the chronology of
+        <a href="history.html">our dynasty</a>.</p>
+        <p align="justify">If you haven't met us yet, you can change that and get to know our family
+          more closely - because we love to meet new people.</p>
+        <center>
+        <h3>Here are the members of our family:</h3>
+        <figure style="float:left;">
+          <img src="images/HomePage/CB_Sr.jpg"></img>
+          <figcaption><a href="members.html#cb_sr">Constantin Buruiana Sr.</a></figcaption>
+        </figure>
+        <figure>
+          <img src="images/HomePage/CB_Jr.jpg"></img>
+          <figcaption><a href="members.html#cb_jr">Constantin Buruiana Jr.</a></figcaption>
+        </figure>
+        <figure style="float:right; margin-left:-20px; margin-right:30px;">
+          <img src="images/HomePage/EB.jpg"></img>
+          <figcaption><a href="members.html#eb">Elena Buruiana</a></figcaption>
+        </figure>
+        </center>
     </section>
 
     <footer>&copy; 2018 Constantin Buruiana. All rights reserved.</footer>

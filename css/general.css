@@ -22,23 +22,13 @@ header {
 
 .page {
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	margin: 0px auto 0px auto;
 	background-color: #fdffb5;
 }
 
-#epigraph{
-	font-size: 20px;
-	font-family: Tahoma, sans-serif;
-	margin-top: -65px;
-	color: yellow;
-}
-
-h1 {
-	text-indent: -9999px;
-	width: 940px;
-	height: 130px;
-	margin: 0px;
+p {
+	margin-right: 20px;
 }
 
 section.content {
@@ -47,6 +37,8 @@ section.content {
 	height: 70%;
 	float: left;
 	display: inline-block;
+	margin-left: 10px;
+	margin-right: 20px;
 }
 
 article {
@@ -57,30 +49,103 @@ article {
 }
 
 hgroup {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 figure {
 	display: inline-block;
-	width: 250px;
-	height: 180px;
+	width: 160px;
+	height: 200px;
 	padding: 5px;
-	margin: 20px;
+	margin: 15px;
 	border: 1px solid #eeeeee;
 	background-color: #47b8ff;
+}
+
+#members p {
+	font-size: 20px;
+	font-family: Tahoma, sans-serif;
+}
+
+div #vertical {
+	display: inline-block;
+	width: 15%;
+	height: 65%;
+	margin-right: 10px;
+}
+
+div #horizontal {
+	display: inline-block;
+	width: 40%;
+	height: 65%;
+	margin-left: 10px;
+	margin-right: -15px;
+}
+
+div #horizontal2 {
+	display: inline-block;
+	width: 20%;
+	height: 65%;
+	margin-left: 10px;
+	margin-right: -15px;
+}
+
+#vertical figure {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	margin: 15px;
+	border: 1px solid #eeeeee;
+	background-color: #47b8ff;
+}
+
+#horizontal figure {
+	display: inline-block;
+	width: 45%;
+	height: 45%;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #eeeeee;
+	background-color: #47b8ff;
+}
+
+#horizontal2 figure {
+	display: inline-block;
+	width: 90%;
+	height: 45%;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #eeeeee;
+	background-color: #47b8ff;
+}
+
+#vertical figure img {
+	width: 90%;
+	height: 95%;
+}
+
+#horizontal figure img, #horizontal2 figure img {
+	width: 95%;
+	height: 90%;
+}
+
+#tree img {
+	width: 160px;
+	height: 180px;
 }
 
 figcaption {
 	display: block;
 	font-size: 90%;
-	text-align: left;
-	margin-top: 5px;
+	text-align: center;
+	margin-top: 0px;
 	color: black;
 }
 
 a {
-	color: #21f24f;
-	text-decoration: none;
+	color: #41f4ee;
+	text-decoration: underline;
 }
 
 h2 {
@@ -97,8 +162,8 @@ h3 {
 footer {
 	display: block;
 	font-size: 90%;
-	padding: 10px 0px 0px 0px;
 	clear: both;
+	margin-bottom: -10px;
 	text-align: center;
 	color: #ffffff;
 	background-color: #47b8ff;
@@ -123,11 +188,6 @@ footer {
 	visibility: visible;
 }
 
-.dynamic figure img {
-	width: 250px;
-	height: 150px;
-}
-
 /* Menu (navigation bar) */
 
 .navbar {
@@ -144,6 +204,13 @@ footer {
   text-align: center;
   padding: 15px;
   text-decoration: none;
+}
+
+.navbar button a {
+	color: white;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
 }
 
 .dropdown {
@@ -192,7 +259,7 @@ footer {
   display: block;
 }
 
-/* Buttons */
+/* Submit buttons */
 
 #submit{
   background-color: green;
@@ -203,22 +270,6 @@ footer {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-#reset{
-  background-color: #de6581;
-  border: 2px;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-#reset:active{
-  background-color: #21f24f;
-  color: white;
 }
 
 #submit:active{

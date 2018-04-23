@@ -11,7 +11,7 @@
     <div class="navbar">
       <a href="home.html">Home</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Album</button>
+        <button type="button" class="dropbtn"><a href="album.html#default">Album</a></button>
         <div class="dropdown-content" id="album-years">
           <a href="album.html#2017">2017</a>
           <a href="album.html#2016">2016</a>
@@ -21,7 +21,7 @@
       </div>
       <a href="history.html">History</a>
       <div class="dropdown">
-        <button type="button" class="dropbtn">Members</button>
+        <button type="button" class="dropbtn"><a href="members.html#default">Members</a></button>
         <div class="dropdown-content" id="members">
           <a href="members.html#cb_jr">Constantin Buruiana Jr</a>
           <a href="members.html#cb_sr">Constantin Buruiana Sr</a>
@@ -33,17 +33,81 @@
     </div>
 
     <section class="content">
-        <div class="dynamic">
+        <div class="dynamic" id="album">
+          <center>
+          <div id="default">
+            <center>
+              <h2>Family Album</h2>
+              <h3>Selection Page</h3>
+              <p align="center">Well, say what you want, but photography is a great human
+                invention. It's just like a time machine! It's always fun to
+                look up and remember some pleasant moments of our lives. So
+                much memories and emotions!</p>
+              <h3>Select the year to look at some photos:</h3>
+              <div id="vertical">
+                <a href="album.html#2017"><figure id="vertical">
+                  <img src="images/Album/2017/1.jpg"></img>
+                  <figcaption>2017</figcaption>
+                </figure></a>
+              </div>
+              <div id="vertical">
+                <a href="album.html#2016"><figure id="vertical">
+                  <img src="images/Album/2016/2.jpg"></img>
+                  <figcaption>2016</figcaption>
+                </figure></a>
+              </div>
+              <div id="vertical">
+                <a href="album.html#2015"><figure id="vertical">
+                  <img src="images/Album/2015/3.jpg"></img>
+                  <figcaption>2015</figcaption>
+                </figure></a>
+              </div>
+              <div id="vertical">
+                <a href="album.html#before"><figure id="vertical">
+                  <img src="images/Album/Before/1.jpg"></img>
+                  <figcaption>Before 2015</figcaption>
+                </figure></a>
+              </div>
+            </center>
+          </div>
+          </center>
           <center>
           <div id="2017">
             <center>
               <h2>Album 2017</h2>
               <h3>1.01.2017 - 31.12.2017</h3>
               <p>Some highlight photos from 2017</p>
-              <figure>
-                <img src="images/dark-wood.jpg"></img>
-                <figcaption>Dark Wood 2017</figcaption>
-              </figure>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2017/1.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="horizontal">
+                <figure>
+                  <img src="images/Album/2017/2.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/Album/2017/3.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure><br>
+                <figure>
+                  <img src="images/Album/2017/4.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/Album/2017/6.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2017/5.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <h3><a href="album.html#2016">Previous year</a></h3>
             </center>
           </div>
           </center>
@@ -54,10 +118,41 @@
               <h2>Album 2016</h2>
               <h3>Yeah!</h3>
               <p>Some highlight photos 2016</p>
-              <figure>
-                <img src="images/dark-wood.jpg"></img>
-                <figcaption>Dark Wood 2016</figcaption>
-              </figure>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2016/2.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/2016/3.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="horizontal2">
+                <figure>
+                  <img src="images/Album/2016/1.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure><br>
+                <figure>
+                  <img src="images/Album/2016/6.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/2016/4.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2016/5.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <h3><a href="album.html#2017">Next year</a>   <a href="album.html#2015">Previous year</a></h3>
             </center>
           </div>
           </center>
@@ -68,10 +163,42 @@
               <h2>Album 2015</h2>
               <h3>1.01.2015 - 31.12.2015</h3>
               <p>Some highlight photos from 2015</p>
-              <figure>
-                <img src="images/dark-wood.jpg"></img>
-                <figcaption>Dark Wood 2015</figcaption>
-              </figure>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2015/3.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/2015/4.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="horizontal2">
+                <figure>
+                  <img src="images/Album/2015/1.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure><br>
+                <figure>
+                  <img src="images/Album/2015/2.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/2015/5.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/2015/6.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <br><br>
+              <h3><a href="album.html#2016">Next year</a>   <a href="album.html#before">Previous year</a></h3>
             </center>
           </div>
           </center>
@@ -82,10 +209,80 @@
               <h2>Album Before 2015</h2>
               <h3>Who's dat litl boi?</h3>
               <p>Some highlight photos before 2015</p>
-              <figure>
-                <img src="images/dark-wood.jpg"></img>
-                <figcaption>Dark Wood Before</figcaption>
-              </figure>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/Before/1.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/Before/2.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="horizontal2">
+                <figure>
+                  <img src="images/Album/Before/4.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure><br>
+                <figure>
+                  <img src="images/Album/Before/5.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure>
+                  <img src="images/Album/Before/3.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/Before/6.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <h3><a href="album.html#2015">Next year</a></h3>
+            </center>
+          </div>
+
+          <div id="omega">
+            <center>
+              <h2>Album Park Omega</h2>
+              <h3>Last Reunion</h3>
+              <p>Some highlight photos from last reunion</p>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/Omega/3.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="horizontal">
+                <figure>
+                  <img src="images/Album/Omega/1.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/Album/Omega/2.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure><br>
+                <figure>
+                  <img src="images/Album/Omega/4.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/Album/Omega/6.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div>
+              <div id="vertical">
+                <figure id="vertical">
+                  <img src="images/Album/Omega/5.jpg"></img>
+                  <figcaption>Dark Wood 2017</figcaption>
+                </figure>
+              </div><br>
+              <h3><a href="reunion.html">Back to reunion page</a></h3>
             </center>
           </div>
           </center>
